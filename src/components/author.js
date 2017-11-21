@@ -7,9 +7,9 @@ class Author extends React.Component {
     render() {
         return (
             <div>
-                <Row type="flex" gutter={20} style={{"line-height" : "1.8em","margin-bottom" : "20"}}>
-                    <Col md={6} xs={12} sm={8} style={{"text-align": "center" ,"margin-bottom" : 20}}>
-                        <div style={{"text-align": "center"}}>
+                <Row type="flex" gutter={20} style={{"lineHeight" : "1.8em","marginBottom" : "20px"}}>
+                    <Col md={6} xs={12} sm={8} style={{"textAlign": "center" ,"marginBottom" : "20px"}}>
+                        <div style={{"textAlign": "center"}}>
                             <img src="http://www.acmmm.org/2016/wp-content/uploads/2016/06/acmmm16_jack_van_wijk.jpg" style={{
                                 width: "120px",
                                 height: "120px",
@@ -21,8 +21,8 @@ class Author extends React.Component {
                         <p><a href="http://www.acmmm.org/2016/?page_id=536">Eindhoven University of Technology</a></p>
                     </Col>
 
-                    <Col md={6} xs={12} sm={8} style={{"text-align": "center" ,"margin-bottom" : 20}}>
-                        <div style={{"text-align": "center"}}>
+                    <Col md={6} xs={12} sm={8} style={{"textAlign": "center" ,"marginBottom" : "20px"}}>
+                        <div style={{"textAlign": "center"}}>
                             <img src="http://www.acmmm.org/2016/wp-content/uploads/2016/06/acmmm16_jack_van_wijk.jpg" style={{
                                 width: "120px",
                                 height: "120px",
@@ -34,8 +34,8 @@ class Author extends React.Component {
                         <p><a href="http://www.acmmm.org/2016/?page_id=536">Eindhoven University of Technology</a></p>
                     </Col>
 
-                    <Col md={6} xs={12} sm={8} style={{"text-align": "center" ,"margin-bottom" : 20}}>
-                        <div style={{"text-align": "center"}}>
+                    <Col md={6} xs={12} sm={8} style={{"textAlign": "center" ,"marginBottom" : "20px"}}>
+                        <div style={{"textAlign": "center"}}>
                             <img src="http://www.acmmm.org/2016/wp-content/uploads/2016/06/acmmm16_jack_van_wijk.jpg" style={{
                                 width: "120px",
                                 height: "120px",
@@ -47,8 +47,8 @@ class Author extends React.Component {
                         <p><a href="http://www.acmmm.org/2016/?page_id=536">Eindhoven University of Technology</a></p>
                     </Col>
 
-                    <Col md={6} xs={12} sm={8} style={{"text-align": "center" ,"margin-bottom" : 20}}>
-                        <div style={{"text-align": "center"}}>
+                    <Col md={6} xs={12} sm={8} style={{"textAlign": "center" ,"marginBottom" : "20px"}}>
+                        <div style={{"textAlign": "center"}}>
                             <img src="http://www.acmmm.org/2016/wp-content/uploads/2016/06/acmmm16_jack_van_wijk.jpg" style={{
                                 width: "120px",
                                 height: "120px",
@@ -60,8 +60,8 @@ class Author extends React.Component {
                         <p><a href="http://www.acmmm.org/2016/?page_id=536">Eindhoven University of Technology</a></p>
                     </Col>
 
-                    <Col md={6} xs={12} sm={8} style={{"text-align": "center" ,"margin-bottom" : 20}}>
-                        <div style={{"text-align": "center"}}>
+                    <Col md={6} xs={12} sm={8} style={{"textAlign": "center" ,"marginBottom" : "20px"}}>
+                        <div style={{"textAlign": "center"}}>
                             <img src="http://www.acmmm.org/2016/wp-content/uploads/2016/06/acmmm16_jack_van_wijk.jpg" style={{
                                 width: "120px",
                                 height: "120px",
