@@ -6,6 +6,7 @@ import {Router, Route, Link, hashHistory, IndexRoute} from 'react-router';
 import {Menu, Row, Col} from 'antd';
 import MyHomePage from './homepage'
 import Author from './author'
+import Sponsor from './sponsor'
 const SubMenu = Menu.SubMenu;
 
 // 配置导航
@@ -104,6 +105,7 @@ ReactDom.render((
             <IndexRoute component={MyHomePage} />
             <Route path="home" component={MyHomePage}/>
             <Route path="author" component={Author}/>
+            <Route path="sponsor" component={Sponsor}/>
         </Route>
     </Router>
 ), document.getElementById('app'));
