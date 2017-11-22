@@ -7,6 +7,16 @@ import {Menu, Row, Col} from 'antd';
 import MyHomePage from './homepage'
 import Author from './author'
 import Sponsor from './sponsor'
+import Organization from './organization'
+import CallForPaper from './callforpaper'
+import Accommodation from './accommodation'
+import ConferenceVenue from './conferencevenue'
+import Keynote from './keynote'
+import PaperSubmission from './papersubmission'
+import PresentationPreparation from './presentationpreparation'
+import Registration from './registration'
+import SpecialSession from './specialsession'
+import Visa from './visa'
 const SubMenu = Menu.SubMenu;
 
 // 配置导航
@@ -81,9 +91,13 @@ class Sider extends React.Component {
                         </Menu>
                 </Row>
                 <Row>
-                    <img src="src/images/nanjing.jpg" style={{width : "100%", "maxHeight" : "20em"}}/>
+                    <img src="src/images/素材/秦淮河.jpg" style={{width : "100%", "maxHeight" : "20em"}}/>
+                    <img src="src/images/素材/紫峰1.jpg" style={{width : "100%", "maxHeight" : "20em"}}/>
+                    <img src="src/images/素材/紫峰2.jpg" style={{width : "100%", "maxHeight" : "20em"}}/>
+                    <img src="src/images/素材/紫峰3.jpg" style={{width : "100%", "maxHeight" : "20em"}}/>
+
                 </Row>
-                <Row>
+                <Row type="flex"  align="top">
                     <Col md={4} sm={3} xs={1}>
 
                     </Col>
@@ -91,7 +105,8 @@ class Sider extends React.Component {
                     <br/>
                     <br/>
                     {this.props.children}
-                </Col></Row>
+                </Col>
+                </Row>
             </div>
         );
     }
@@ -106,6 +121,16 @@ ReactDom.render((
             <Route path="home" component={MyHomePage}/>
             <Route path="author" component={Author}/>
             <Route path="sponsor" component={Sponsor}/>
+            <Route path="organization" component={Organization}/>
+            <Route path="callforpaper" component={CallForPaper}/>
+            <Route path="accommodation" component={Accommodation}/>
+            <Route path="conferencevenue" component={ConferenceVenue}/>
+            <Route path="keynote" component={Keynote}/>
+            <Route path="papersubmission" component={PaperSubmission}/>
+            <Route path="presentationpreparation" component={PresentationPreparation}/>
+            <Route path="registration" component={Registration}/>
+            <Route path="specialsession" component={SpecialSession}/>
+            <Route path="visa" component={Visa}/>
         </Route>
     </Router>
 ), document.getElementById('app'));
