@@ -12,7 +12,7 @@ class Sponsor extends React.Component {
 
     render() {
         return (
-            <div style={{fontSize: 14}}>
+            <div>
                 <p>On behalf of the Conference Committee of the 10th International Conference on Internet Multimedia
                     Computing and Service, we invite you to participate in the sponsor program for ICIMCS 2018. The
                     conference will be held in Nanjing, Jiangsu, China, from August 17 to 19, 2018.
@@ -33,6 +33,7 @@ class Sponsor extends React.Component {
                 <p>Shiqiang Yang, Tsinghua University</p>
                 <p>Yongdong Zhang, University of Science and Technology of China</p>
                 <p>Shuqiang Jiang, Institute of Computing Technology, Chinese Academy of Sciences</p>
+                <br/>
             </div>
         );
     }

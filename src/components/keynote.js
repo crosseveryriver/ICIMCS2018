@@ -4,7 +4,7 @@
 'use strict'
 
 import React from 'react'
-import { Col } from 'antd'
+import { Col, Row } from 'antd'
 
 class Keynote extends React.Component{
     render(){
@@ -19,17 +19,24 @@ class Keynote extends React.Component{
             <div>
                 {persons.map(function (person) {
                     return (
-                        <Col md={6} xs={12} sm={8} style={{"textAlign": "center" ,"marginBottom" : "20px"}} key={person.name}>
-                            <div style={{"textAlign": "center"}}>
-                                <img src={person.url} style={{
-                                    width: "120px",
-                                    height: "120px",
-                                    "overflow": "hidden"
-                                }}/>
-                            </div>
-                            <p><a href="#">{person.name}</a></p>
-                            <p><a href="#">{person.location}</a></p>
-                        </Col>
+                       <Row>
+                           {persons.map(function (person) {
+                               return (
+                                   <Col md={6} xs={12} sm={8} style={{"textAlign": "center" ,"marginBottom" : "20px"}} key={person.name}>
+                                       <div style={{"textAlign": "center"}}>
+                                           <img src={person.url} style={{
+                                               width: "120px",
+                                               height: "120px",
+                                               "borderRadius": "100%",
+                                               "overflow": "hidden"
+                                           }}/>
+                                       </div>
+                                       <p><strong>{person.name}</strong></p>
+                                       <p>{person.location}</p>
+                                   </Col>
+                               )
+                           })}
+                       </Row>
                     )
                 })}
             </div>

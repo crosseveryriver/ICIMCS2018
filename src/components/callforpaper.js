@@ -8,7 +8,7 @@ import React from 'react'
 class CallForPaper extends React.Component {
     render() {
         return (
-            <div style={{fontSize: 14}}>
+            <div>
                 <p>ICIMCS 2018 will include oral and poster presentations. ICIMCS 2018 will serve as an international
                     forum
                     to bring together researchers and practitioners from academia and industry to discuss cutting-edge
@@ -27,6 +27,7 @@ class CallForPaper extends React.Component {
                     reviewing assessed by the Program Committee, and paper presentation quality assessed by session
                     chairs at the conference venue. The "Best Student Paper Award" will be given to a paper in which the
                     first author is a registered undergraduate or graduate student.</p>
+                <br/>
             </div>
 
         )

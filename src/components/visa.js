@@ -8,8 +8,8 @@ import React from 'react'
 class Visa extends React.Component{
     render(){
         return (
-            <div style={{fontSize : 30,"textAlign" : "center","color" : "green", "height" : "10em","lineHeight" : '10em'}}>
-                Coming Soon!
+           <div style={{"height" : "30em"}}>
+                Coming Soon
             </div>
         )
     }

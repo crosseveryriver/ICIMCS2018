@@ -8,7 +8,7 @@ import React from 'react'
 class SpecialSession extends React.Component {
     render() {
         return (
-            <div style={{fontSize: 14}}>
+            <div>
                 <p>ICIMCS 2018 will include a number of special sessions on innovative and frontier topics and themes of
                     interest to the broad multimedia community.</p>
                 <br/>
@@ -34,6 +34,7 @@ class SpecialSession extends React.Component {
                 <p>organizer(s) will be responsible for soliciting papers by invitation or open call, assigning
                     reviewers</p>
                 <p>for the special session, deciding on paper acceptance based on the received paper reviews.</p>
+                <br/>
             </div>
         )
     }
