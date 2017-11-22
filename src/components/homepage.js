@@ -25,8 +25,7 @@ class MyHomePage extends React.Component {
                 <p style={{"textAlign": "justify", "lineHeight": "1.8em"}}>All previous ICIMCS papers have been indexed
                     by EI. High quality papers will be recommended to the special issue of the SCI-indexed multimedia
                     journal this year.&nbsp;</p>
-                <p style={{"textAlign": "justify", "lineHeight": "1.8em"}}>A "Best Paper Award" and a "
-                    Best Student Paper Award>" will be conferred to
+                <p style={{"textAlign": "justify", "lineHeight": "1.8em"}}>A "Best Paper Award" and a "Best Student Paper Award" will be conferred to
                     the author(s)
                     of a full paper presented at the conference,selected by the award committee based on the marks of
                     paper reviewing assessed by the Program Committee, and paper presentation quality assessed by

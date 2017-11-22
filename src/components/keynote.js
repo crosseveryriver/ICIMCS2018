@@ -25,8 +25,8 @@ class Keynote extends React.Component{
                                    <Col md={6} xs={12} sm={8} style={{"textAlign": "center" ,"marginBottom" : "20px"}} key={person.name}>
                                        <div style={{"textAlign": "center"}}>
                                            <img src={person.url} style={{
-                                               width: "120px",
-                                               height: "120px",
+                                               width: "160px",
+                                               height: "160px",
                                                "borderRadius": "100%",
                                                "overflow": "hidden"
                                            }}/>

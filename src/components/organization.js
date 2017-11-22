@@ -47,7 +47,7 @@ class Organization extends React.Component{
                 {
                     "name": "Guo-Jun Qi",
                     "location": "University of Central Florida, USA",
-                    "url": "src/images/avatar/img_gqi.jpg"
+                    "url": "src/images/avatar/guojunqi.jpg"
                 },
                 {
                     "name": "Tongwei Ren",
@@ -64,7 +64,7 @@ class Organization extends React.Component{
                 {
                     "name": "Jitao Sang",
                     "location": "Beijing Jiaotong University, China",
-                    "url": "src/images/avatar/sangjitao.png"
+                    "url": "src/images/avatar/jitaosang.jpg"
                 }
             ],
             "Local Chair": [
@@ -105,7 +105,7 @@ class Organization extends React.Component{
                 {
                     "name": "Rongrong Ji",
                     "location": "Xiamen University, China",
-                    "url": "src/images/avatar/newprofile.png"
+                    "url": "src/images/avatar/rongrongji.jpg"
                 },
                 {
                     "name": "Binkun Bao",
@@ -139,14 +139,14 @@ class Organization extends React.Component{
                 {
                     "name": "Jie Tang",
                     "location": "Nanjing University, China",
-                    "url": "src/images/avatar/tangj_large.jpg"
+                    "url": "src/images/avatar/jietang.jpg"
                 }
             ],
             "ACM SIGMM China Chapter Chair": [
                 {
                     "name": "Changsheng Xu",
                     "location": "Institute of Automation, Chinese Academy of Sciences, China",
-                    "url": "src/images/avatar/c8ea15ce36d3d539e0593eb93a87e950352ab067.jpg"
+                    "url": "src/images/avatar/changshengxu.jpg"
                 }
             ]
         }
@@ -170,8 +170,8 @@ class Organization extends React.Component{
                                             <Col md={6} xs={12} sm={8} style={{"textAlign": "center" ,"marginBottom" : "20px"}} key={person.name}>
                                             <div style={{"textAlign": "center"}}>
                                                 <img src={person.url} style={{
-                                                    width: "120px",
-                                                    height: "120px",
+                                                    width: "160px",
+                                                    height: "160px",
                                                     "borderRadius": "100%",
                                                     "overflow": "hidden"
                                                 }}/>

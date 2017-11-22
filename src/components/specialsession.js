@@ -27,13 +27,9 @@ class SpecialSession extends React.Component {
                 <p> Peng Cui (cuip@tsinghua.edu.cn)</p>
                 <p>Hanwang Zhang (hanwangzhang@gmail.com)</p>
                 <p>Proposals will be evaluated considering the appropriateness with the conference main topics, as well
-                    as</p>
-                <p>the quality of the paper abstracts. Papers will be submitted to the submission system and will be</p>
-                <p>subjected to the same peer review of regular papers. On approval of their proposal, the Special
-                    Session</p>
-                <p>organizer(s) will be responsible for soliciting papers by invitation or open call, assigning
-                    reviewers</p>
-                <p>for the special session, deciding on paper acceptance based on the received paper reviews.</p>
+                    as the quality of the paper abstracts. Papers will be submitted to the submission system and will be subjected to the same peer review of regular papers. On approval of their proposal, the Special
+                    Session organizer(s) will be responsible for soliciting papers by invitation or open call, assigning
+                    reviewers for the special session, deciding on paper acceptance based on the received paper reviews.</p>
                 <br/>
             </div>
         )
