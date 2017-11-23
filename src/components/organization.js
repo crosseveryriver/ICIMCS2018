@@ -62,6 +62,11 @@ class Organization extends React.Component{
                     "url": "src/images/avatar/meitao.jpeg"
                 },
                 {
+                    "name": "Jialie Shen",
+                    "location": "Northumbria University, UK",
+                    "url": "src/images/avatar/jialieshen.jpg"
+                },
+                {
                     "name": "Jitao Sang",
                     "location": "Beijing Jiaotong University, China",
                     "url": "src/images/avatar/jitaosang.jpg"
