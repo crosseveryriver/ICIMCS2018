@@ -13,8 +13,7 @@ class MyHomePage extends React.Component {
                 {/*<strong><p style={{fontSize: "xx-large"}}>Welcome to ICIMCS 2018</p></strong>*/}
                 <p style={{"textAlign": "justify", "lineHeight": "1.8em"}}>The 10th International Conference on Internet
                     Multimedia Computing and Service (ICIMCS 2018) will
-                    be held at Nanjing, Jiangsu, China, from August 17 to 19, 2018.
-                    2017 at Tsingtao, China. The conference will serve as an international forum to bring together
+                    be held at Nanjing, Jiangsu, China, from August 17 to 19, 2018. The conference will serve as an international forum to bring together
                     researchers and practitioners from academia and industry to discuss cutting-edge research on
                     state-of-the-art of internet multimedia processing, multimedia service, analysis and applications.
                     The conference calls for research papers reporting original investigation results and industrial

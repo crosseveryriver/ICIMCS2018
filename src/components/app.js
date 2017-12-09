@@ -45,7 +45,8 @@ class Sider extends React.Component {
                 textAlign : "justify"
             }}>
                 <Row style={{"textAlign": "center"}}>
-                    <img src="src/images/logo2.png" style={{maxWidth: "100%"}}/>
+                    <Col span={24} >
+                    <img src="src/images/logo.png" style={{maxWidth : "100%"}}/></Col>
                 </Row>
                 <Row>
                     <Menu
