@@ -13,14 +13,14 @@ class Organization extends React.Component{
                 {
                     "name": "Yong Rui",
                     "location": "Lenovo, China",
-                    "url": "src/images/avatar/Yong-Rui-300x300.jpg"
+                    "url": "src/images/avatar/yongrui.jpg"
                 }
             ],
             "General Chair": [
                 {
                     "name": "Dan Schonfeld",
                     "location": "University of Illinois Chicago, USA",
-                    "url": "src/images/avatar/image003.jpg"
+                    "url": "src/images/avatar/danschonfeld.jpg"
                 },
                 {
                     "name": "Gangshan Wu",
@@ -30,19 +30,19 @@ class Organization extends React.Component{
                 {
                     "name": "Chong-Wah Ngo",
                     "location": "City University of Hong Kong, Hong Kong",
-                    "url": "src/images/avatar/chong_wah_ngo.jpg"
+                    "url": "src/images/avatar/chongwahngo.jpg"
                 }
             ],
             "Program Chair": [
                 {
                     "name": "Yo-Sung Ho",
                     "location": "Gwangju Institute of Science and Technology, Korea",
-                    "url": "src/images/avatar/Yo-Sung%20Ho.jpg"
+                    "url": "src/images/avatar/yosungho.jpg"
                 },
                 {
                     "name": "Jinhui Tang",
                     "location": "Nanjing University of Science and Technology, China",
-                    "url": "src/images/avatar/Jinhui-Tang.jpg"
+                    "url": "src/images/avatar/jinhuitang.jpg"
                 },
                 {
                     "name": "Guo-Jun Qi",
@@ -52,7 +52,7 @@ class Organization extends React.Component{
                 {
                     "name": "Tongwei Ren",
                     "location": "Nanjing University, China",
-                    "url": "src/images/avatar/avatar-rentw.png"
+                    "url": "src/images/avatar/tongweiren.png"
                 }
             ],
             "Publicity Chair": [
@@ -64,7 +64,7 @@ class Organization extends React.Component{
                 {
                     "name": "Jialie Shen",
                     "location": "Newcastle University, UK",
-                    "url": "src/images/avatar/JialieShen .jpg"
+                    "url": "src/images/avatar/jialieshen.jpg"
                 },
                 {
                     "name": "Jitao Sang",
@@ -76,34 +76,34 @@ class Organization extends React.Component{
                 {
                     "name": "Ting Rui",
                     "location": "PLA University of Science and Technology, China",
-                    "url": "src/images/avatar/ruit.jpg"
+                    "url": "src/images/avatar/tingrui.jpg"
                 },
                 {
                     "name": "Qingshan Liu",
                     "location": "Nanjing University of Information Science and Technology, China",
-                    "url": "src/images/avatar/qsliu.jpg"
+                    "url": "src/images/avatar/qingshanliu.jpg"
                 },
                 {
                     "name": "Yugang Jiang",
                     "location": "Fudan University, China",
-                    "url": "src/images/avatar/31.jpg"
+                    "url": "src/images/avatar/yugangjiang.jpg"
                 }
             ],
             "Sponsorship Chair": [
                 {
                     "name": "Shiqiang Yang",
                     "location": "Tsinghua University, China",
-                    "url": "src/images/avatar/yangsq.jpg"
+                    "url": "src/images/avatar/shiqiangyang.jpg"
                 },
                 {
                     "name": "Yongdong Zhang",
                     "location": "University of Science and Technology of China, China",
-                    "url": "src/images/avatar/20170420175436895.jpg"
+                    "url": "src/images/avatar/yongdongzhang.jpg"
                 },
                 {
                     "name": "Shuqiang Jiang",
                     "location": "Institute of Computing Technology, Chinese Academy of Sciences, China",
-                    "url": "src/images/avatar/u=3229325356,1295260164&fm=27&gp=0.jpg"
+                    "url": "src/images/avatar/shuqiangjiang.jpg"
                 }
             ],
             "Publication Chair": [
@@ -115,29 +115,34 @@ class Organization extends React.Component{
                 {
                     "name": "Binkun Bao",
                     "location": "Institute of Automation, Chinese Academy of Sciences, China",
-                    "url": "src/images/avatar/2013881633_1121277125406.jpg"
+                    "url": "src/images/avatar/binkunbao.jpg"
                 },
                 {
                     "name": "Weiqing Min",
                     "location": "Institute of Computing Technology, Chinese Academy of Sciences, China",
-                    "url": "src/images/avatar/minweiqing.png"
+                    "url": "src/images/avatar/weiqingmin.png"
                 }
             ],
             "Special Session Chair": [
                 {
                     "name": "Qingxiong Yang",
                     "location": "City University of Hong Kong, Hong Kong",
-                    "url": "src/images/avatar/qiyang_STF.jpg"
+                    "url": "src/images/avatar/qingxiongyang.jpg"
                 },
                 {
                     "name": "Peng Cui",
                     "location": "Tsinghua University, China",
-                    "url": "src/images/avatar/IMG_5488.JPG"
+                    "url": "src/images/avatar/pengcui.JPG"
                 },
                 {
                     "name": "Hanwang Zhang",
                     "location": "Nanyang Technological University, Singapore",
-                    "url": "src/images/avatar/IMG_5292.JPG"
+                    "url": "src/images/avatar/hanwangzhang.JPG"
+                },
+				{
+                    "name": "Si Liu",
+                    "location": "Institute of Information Engineering, Chinese Academy of Sciences, China",
+                    "url": "src/images/avatar/siliu.jpg"
                 }
             ],
             "Finance Chair & Registration Chair": [
@@ -145,6 +150,13 @@ class Organization extends React.Component{
                     "name": "Jie Tang",
                     "location": "Nanjing University, China",
                     "url": "src/images/avatar/jietang.jpg"
+                }
+            ],
+			"Website Chair": [
+                {
+                    "name": "Xi Shao",
+                    "location": "Nanjing University of Posts and Telecommunications, China",
+                    "url": "src/images/avatar/xishao.jpg"
                 }
             ],
             "ACM SIGMM China Chapter Chair": [
