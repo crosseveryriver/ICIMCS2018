@@ -25,7 +25,8 @@ class SpecialSession extends React.Component {
                 <p>Special Session organizers can submit the proposals to the Special Session Co-Chairs:</p>
                 <p> Qingxiong Yang (qiyang@cityu.edu.hk)</p>
                 <p> Peng Cui (cuip@tsinghua.edu.cn)</p>
-                <p>Hanwang Zhang (hanwangzhang@gmail.com)</p>
+                <p> Hanwang Zhang (hanwangzhang@gmail.com)</p>
+                <p> Si Liu (liusi@iie.ac.cn)</p>
                 <p>Proposals will be evaluated considering the appropriateness with the conference main topics, as well
                     as the quality of the paper abstracts. Papers will be submitted to the submission system and will be subjected to the same peer review of regular papers. On approval of their proposal, the Special
                     Session organizer(s) will be responsible for soliciting papers by invitation or open call, assigning

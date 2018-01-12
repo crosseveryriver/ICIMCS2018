@@ -113,7 +113,7 @@ class Organization extends React.Component{
                     "url": "src/images/avatar/rongrongji.jpg"
                 },
                 {
-                    "name": "Binkun Bao",
+                    "name": "Bing-Kun Bao",
                     "location": "Institute of Automation, Chinese Academy of Sciences, China",
                     "url": "src/images/avatar/binkunbao.jpg"
                 },
@@ -139,7 +139,7 @@ class Organization extends React.Component{
                     "location": "Nanyang Technological University, Singapore",
                     "url": "src/images/avatar/hanwangzhang.JPG"
                 },
-				{
+                {
                     "name": "Si Liu",
                     "location": "Institute of Information Engineering, Chinese Academy of Sciences, China",
                     "url": "src/images/avatar/siliu.jpg"
@@ -152,7 +152,7 @@ class Organization extends React.Component{
                     "url": "src/images/avatar/jietang.jpg"
                 }
             ],
-			"Website Chair": [
+            "Website Chair": [
                 {
                     "name": "Xi Shao",
                     "location": "Nanjing University of Posts and Telecommunications, China",
@@ -185,16 +185,16 @@ class Organization extends React.Component{
                                     {persons.map(function (person) {
                                         return (
                                             <Col md={6} xs={12} sm={8} style={{"textAlign": "center" ,"marginBottom" : "20px"}} key={person.name}>
-                                            <div style={{"textAlign": "center"}}>
-                                                <img src={person.url} style={{
-                                                    width: "160px",
-                                                    height: "160px",
-                                                    "borderRadius": "100%",
-                                                    "overflow": "hidden"
-                                                }}/>
-                                            </div>
-                                            <p><strong>{person.name}</strong></p>
-                                            <p>{person.location}</p>
+                                                <div style={{"textAlign": "center"}}>
+                                                    <img src={person.url} style={{
+                                                        width: "160px",
+                                                        height: "160px",
+                                                        "borderRadius": "100%",
+                                                        "overflow": "hidden"
+                                                    }}/>
+                                                </div>
+                                                <p><strong>{person.name}</strong></p>
+                                                <p>{person.location}</p>
                                             </Col>
                                         )
                                     })}
