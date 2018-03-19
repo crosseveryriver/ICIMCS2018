@@ -17,6 +17,7 @@ import PresentationPreparation from './presentationpreparation'
 import Registration from './registration'
 import SpecialSession from './specialsession'
 import Visa from './visa'
+import TechiniqueProgramCommittee from './techiniqueprogramcommittee'
 const SubMenu = Menu.SubMenu;
 
 // 配置导航
@@ -72,10 +73,10 @@ class Sider extends React.Component {
                                 Preparation</strong></Menu.Item>
                         </SubMenu>
 
-                        <Menu.Item key="organization">
-                            <Link to="/organization"/>
-                            <strong> Organization</strong>
-                        </Menu.Item>
+                       <SubMenu title={<span><strong>Organization</strong></span>}>
+	                        <Menu.Item key="organization"><Link to="/organization"/><strong>Organization Committee</strong></Menu.Item>
+	                        <Menu.Item key="techiniqueProgramCommittee"><Link to="/techiniqueprogramcommittee"/><strong>Techinique Program Committee</strong></Menu.Item>
+                        </SubMenu>
                         <SubMenu title={<span><strong>Attending</strong></span>}>
                             <Menu.Item key="registration">
                                 <Link to="/registration"/>
@@ -146,6 +147,7 @@ ReactDom.render((
             <Route path="registration" component={Registration}/>
             <Route path="specialsession" component={SpecialSession}/>
             <Route path="visa" component={Visa}/>
+            <Route path="techiniqueprogramcommittee" component={TechiniqueProgramCommittee}/>
         </Route>
     </Router>
 ), document.getElementById('app'));

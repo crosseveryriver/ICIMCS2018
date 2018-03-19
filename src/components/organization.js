@@ -58,7 +58,7 @@ class Organization extends React.Component{
             "Publicity Chair": [
                 {
                     "name": "Tao Mei",
-                    "location": "Microsoft Research Asia, China",
+                    "location": "JD, China",
                     "url": "src/images/avatar/meitao.jpeg"
                 },
                 {
