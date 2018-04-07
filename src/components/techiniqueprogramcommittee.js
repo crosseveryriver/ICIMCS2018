@@ -87,7 +87,7 @@ class TechiniqueProgramCommittee extends React.Component{
                 <p>Xueming Qian;&nbsp; Xian Jiaotong University, China;&nbsp; qianxm@mail.xjtu.edu.cn</p>
                 <p>Yanyun Qu;&nbsp; Xiamen University, China;&nbsp; yyqu@xmu.edu.cn</p>
                 <p>Tongwei Ren;&nbsp; Nanjing University, China;&nbsp; rentw@nju.edu.cn</p>
-                <p>Ting Rui;&nbsp; PLA University of Science and Technology, China;&nbsp; 354442511@qq.com</p>
+                <p>Ting Rui;&nbsp; The Army Engineering University of PLA, China;&nbsp; 354442511@qq.com</p>
                 <p>Jitao Sang;&nbsp; Beijing Jiaotong University, China;&nbsp; jtsang@bjtu.edu.cn</p>
                 <p>Shinichi Satoh;&nbsp; National Institute of Informatics, Japan;&nbsp; satoh@nii.ac.jp</p>
                 <p>Xindi Xindi;&nbsp; National University of Singapore, Singapore;&nbsp; shangxin@comp.nus.edu.sg</p>

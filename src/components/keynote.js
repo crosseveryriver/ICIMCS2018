@@ -12,7 +12,12 @@ class Keynote extends React.Component{
             {
                 name : "Tat-Seng Chua",
                 location : "National University of Singapore, Singapore",
-                url : "http://www.acmmm.org/2017/wp-content/uploads/2017/01/Tat-Seng-Chua-300x300.jpg"
+                url : "http://www.acmmm.org/2017/wp-content/uploads/2017/01/Tat-Seng-Chua-300x300.jpg" 
+            },
+            {
+                name :"Alberto Del Bimbo",
+                location :"University of Firenze, Italy",
+                url :"src/images/avatar/albertodelbimbo.jpg"
             }
         ]
         return (

@@ -35,8 +35,18 @@ class MyHomePage extends React.Component {
             <div>
                 <h2>News</h2>
                 <p style={{"textAlign": "justify", "lineHeight": "1.8em"}}>
+                    &bull;&nbsp;Apr. 4: the paper submission site on EasyChair is open:<a herf="http://www.acmsigmmbj.org/icimcs2018/#/callforpaper?_k=jok0ze">http://www.acmsigmmbj.org/icimcs2018/#/callforpaper?_k=jok0ze</a> &nbsp;
+                </p>
+                <p style={{"textAlign": "justify", "lineHeight": "1.8em"}}>
+                    &bull;&nbsp;Apr. 3: Prof. Tat-Seng Chua and Prof. Alberto Del Bimbo will be the keynote speakers of ICIMCS 2018.&nbsp;
+                </p>
+                <p style={{"textAlign": "justify", "lineHeight": "1.8em"}}>
+                    &bull;&nbsp;Mar. 25, 2018: the CFP of ICIMCS 2018 is released.&nbsp;
+                </p>
+                <p style={{"textAlign": "justify", "lineHeight": "1.8em"}}>
                     &bull;&nbsp;Dec. 1, 2017: the website of ICIMCS 2018 is online.&nbsp;
                 </p>
+                
             </div>
         </div>
     );

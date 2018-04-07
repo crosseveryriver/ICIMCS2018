@@ -75,7 +75,7 @@ class Organization extends React.Component{
             "Local Chair": [
                 {
                     "name": "Ting Rui",
-                    "location": "PLA University of Science and Technology, China",
+                    "location": "The Army Engineering University of PLA, China",
                     "url": "src/images/avatar/tingrui.jpg"
                 },
                 {
@@ -125,11 +125,6 @@ class Organization extends React.Component{
             ],
             "Special Session Chair": [
                 {
-                    "name": "Qingxiong Yang",
-                    "location": "City University of Hong Kong, Hong Kong",
-                    "url": "src/images/avatar/qingxiongyang.jpg"
-                },
-                {
                     "name": "Peng Cui",
                     "location": "Tsinghua University, China",
                     "url": "src/images/avatar/pengcui.JPG"
@@ -143,6 +138,11 @@ class Organization extends React.Component{
                     "name": "Si Liu",
                     "location": "Institute of Information Engineering, Chinese Academy of Sciences, China",
                     "url": "src/images/avatar/siliu.jpg"
+                },
+                {
+                    "name":"Huimin Lu",
+                    "location":"Kyushu Institute of Technology, Japan",
+                    "url":"src/images/avatar/huiminlu.jpg"
                 }
             ],
             "Finance Chair & Registration Chair": [
