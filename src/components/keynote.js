@@ -22,28 +22,24 @@ class Keynote extends React.Component{
         ]
         return (
             <div>
-                {persons.map(function (person) {
-                    return (
-                       <Row>
-                           {persons.map(function (person) {
-                               return (
-                                   <Col md={6} xs={12} sm={8} style={{"textAlign": "center" ,"marginBottom" : "20px"}} key={person.name}>
-                                       <div style={{"textAlign": "center"}}>
-                                           <img src={person.url} style={{
-                                               width: "160px",
-                                               height: "160px",
-                                               "borderRadius": "100%",
-                                               "overflow": "hidden"
-                                           }}/>
-                                       </div>
-                                       <p><strong>{person.name}</strong></p>
-                                       <p>{person.location}</p>
-                                   </Col>
-                               )
-                           })}
-                       </Row>
-                    )
-                })}
+                <Row>
+                    {persons.map(function (person) {
+                        return (
+                            <Col md={6} xs={12} sm={8} style={{"textAlign": "center" ,"marginBottom" : "20px"}} key={person.name}>
+                                <div style={{"textAlign": "center"}}>
+                                    <img src={person.url} style={{
+                                        width: "160px",
+                                        height: "160px",
+                                        "borderRadius": "100%",
+                                        "overflow": "hidden"
+                                    }}/>
+                                </div>
+                                <p><strong>{person.name}</strong></p>
+                                <p>{person.location}</p>
+                            </Col>
+                        )
+                    })}
+                </Row>
             </div>
         )
     }
